@@ -8,6 +8,7 @@
   --clr-green: #1acb98;
   --clr-beige: #ffeeda;
   --clr-grey: #f5f4f8;
+  --clr-pale-purple: #f5f4f8;
 }
 
 body {
@@ -140,26 +141,49 @@ button.instructor {
   min-height: 100%;
 }
 
+.hightlight-info {
+  box-shadow: 0 5px #120c2d;
+}
+
 .under-info {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 100px;
+  height: 125px;
 }
 
 .mini-cards {
   box-sizing: border-box;
   display: flex;
-  justify-content: flex-start;
   align-items: center;
-  width: 500px;
+  flex-grow: 1;
   height: 100px;
-  background-color: #f5f4f8;
-  margin-right: 150px;
   padding: 20px;
 }
 
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  background-color: var(--clr-beige);
+  margin-right: 10px;
+}
+
 .mini-cards p {
-  font-size: 20px;
+  font-size: 15px;
   color: #120c2d;
+  flex-grow: 1;
+}
+
+.alt-bold {
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.main-cards {
+  background-color: var(--clr-pale-purple);
+  height: 90vh;
 }
