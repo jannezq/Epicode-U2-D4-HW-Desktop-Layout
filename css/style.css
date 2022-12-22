@@ -66,6 +66,9 @@ nav .dropdown .nav-link {
 }
 
 .hero-section {
-  background-image: url("../imgs/hero-area-background.jpg");
-  background-size: cover;
+  width: initial;
+  background-color: var(--clr-purple);
+}
+
+.hero {
 }
