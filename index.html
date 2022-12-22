@@ -28,11 +28,11 @@
                     <img class="align-middle" src="/assets/caret-down.svg" alt="caret down icon">
                 </div>
         </nav>
-        <div class="side-area circle">
+        <div class="side-area ">
             <div class="notification">
                 <img src="/assets/bell.svg" alt="bell icon">
             </div>
-            <div class="profile-area circle">
+            <div class="profile-area ">
                 <img src="/assets/avatar-1.jpg" alt="happy smiling person in a pink background">
             </div>
         </div>
@@ -98,79 +98,305 @@
     </section>
     <section class="main-cards">
         <div class="container inner">
-            <h2 class="second-title">Recommended</h2>
+            <h2 class="second-title">Recommended to you</h2>
             <div class="main-outer-card">
                 <div class="main-inner-cards">
-                    <img class="course-img" src="/assets/course-angular.jpg" alt="">
+                    <img class="course-img" src="/assets/course-graphql.jpg" alt="">
                     <div class="inner-card-body">
                         <h4>GraphQL: introduction to graphQL for beginners</h4>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="course-time">2h 40m</p>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="difficulty">Advance</p>
-
-                        <hr>
-                        <!-- <div class="profile-img">
-                            <img src="/assets/avatar-2.jpg" alt="">
-                        </div> -->
-                        <p> Brooklyn Simmons</p>
-                        <img src="/assets/bookmark.svg" alt="">
+                        <div class="flex-body">
+                            <div class="course-time-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-clock">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>2h 40m
+                            </div>
+                            <div class="advance">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                            color: #754ffe;
+                                        "></rect>
+                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect>
+                                </svg>Advance
+                            </div>
+                        </div>
+                        <div class="rate">
+                            <div class="rating-price">
+                                <div class="rating">
+                                    <svg viewBox="0 0 24 24" role="presentation"
+                                        style="width: 0.875rem; height: 0.875rem;">
+                                        <path
+                                            d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                            style="fill: currentcolor;"></path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" role="presentation"
+                                        style="width: 0.875rem; height: 0.875rem;">
+                                        <path
+                                            d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                            style="fill: currentcolor;"></path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" role="presentation"
+                                        style="width: 0.875rem; height: 0.875rem;">
+                                        <path
+                                            d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                            style="fill: currentcolor;"></path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" role="presentation"
+                                        style="width: 0.875rem; height: 0.875rem;">
+                                        <path
+                                            d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                            style="fill: currentcolor;"></path>
+                                    </svg>
+                                    <svg viewBox="0 0 24 24" role="presentation"
+                                        style="width: 0.875rem; height: 0.875rem;">
+                                        <path
+                                            d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                            style="fill: currentcolor;"></path>
+                                    </svg>
+                                    3.5
+                                    <span class="overall-raters">(1,500)</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>$500</span>
+                            <del>$600</del>
+                        </div>
+                        <div class="card-footer">
+                            <div class="instructor-body">
+                                <div class="profile-img">
+                                    <img class="profile-img" src="/assets/avatar-2.jpg" alt="">
+                                </div>
+                                <span> Brooklyn Simmons</span>
+                                <div class="bookmark">
+                                    <img src="/assets/bookmark.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
                 <div class="main-inner-cards">
                     <img class="course-img" src="/assets/course-angular.jpg" alt="">
                     <div class="inner-card-body">
                         <h4>GraphQL: introduction to graphQL for beginners</h4>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="course-time">2h 40m</p>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="difficulty">Advance</p>
+                        <div class="flex-body">
+                            <div class="course-time-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-clock">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <p class="course-time">2h 40m</p>
+                            </div>
+                            <div class="advance">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                            color: #754ffe;
+                                        "></rect>
+                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect>
+                                </svg>
+                                <p class="difficulty">Advance</p>
+                            </div>
+                        </div>
+
+                        <div class="rating-price">
+                            <div class="raiting">
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                3.5
+                                <span class="overall-raters">(1,500)</span>
+                            </div>
+
+                        </div>
+
 
                         <hr>
-                        <!-- <div class="profile-img">
-                            <img src="/assets/avatar-2.jpg" alt="">
-                        </div> -->
-                        <p> Brooklyn Simmons</p>
-                        <img src="/assets/bookmark.svg" alt="">
+                        <div class="instructor-body">
+                            <div class="profile-img">
+                                <img class="profile-img" src="/assets/avatar-2.jpg" alt="">
+                            </div>
+                            <p> Brooklyn Simmons</p>
+                            <img class="bookmark" src="/assets/bookmark.svg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="main-inner-cards">
                     <img class="course-img" src="/assets/course-angular.jpg" alt="">
                     <div class="inner-card-body">
                         <h4>GraphQL: introduction to graphQL for beginners</h4>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="course-time">2h 40m</p>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="difficulty">Advance</p>
+                        <div class="flex-body">
+                            <div class="course-time-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-clock">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <p class="course-time">2h 40m</p>
+                            </div>
+                            <div class="advance">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                            color: #754ffe;
+                                        "></rect>
+                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect>
+                                </svg>
+                                <p class="difficulty">Advance</p>
+                            </div>
+                        </div>
+
+                        <div class="rating-price">
+                            <div class="raiting">
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                3.5
+                                <span class="overall-raters">(1,500)</span>
+                            </div>
+
+                        </div>
+
 
                         <hr>
-                        <!-- <div class="profile-img">
-                            <img src="/assets/avatar-2.jpg" alt="">
-                        </div> -->
-                        <p> Brooklyn Simmons</p>
-                        <img src="/assets/bookmark.svg" alt="">
+                        <div class="instructor-body">
+                            <div class="profile-img">
+                                <img class="profile-img" src="/assets/avatar-2.jpg" alt="">
+                            </div>
+                            <p> Brooklyn Simmons</p>
+                            <img class="bookmark" src="/assets/bookmark.svg" alt="">
+                        </div>
                     </div>
                 </div>
                 <div class="main-inner-cards">
                     <img class="course-img" src="/assets/course-angular.jpg" alt="">
                     <div class="inner-card-body">
                         <h4>GraphQL: introduction to graphQL for beginners</h4>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="course-time">2h 40m</p>
-                        <img src="/assets/bell.svg" alt="">
-                        <p class="difficulty">Advance</p>
+                        <div class="flex-body">
+                            <div class="course-time-header">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+                                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                    stroke-linejoin="round" class="feather feather-clock">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <polyline points="12 6 12 12 16 14"></polyline>
+                                </svg>
+                                <p class="course-time">2h 40m</p>
+                            </div>
+                            <div class="advance">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <rect x="3" y="8" width="2" height="6" rx="1" fill="#754FFE" style="
+                                            color: #754ffe;
+                                        "></rect>
+                                    <rect x="7" y="5" width="2" height="9" rx="1" fill="#754FFE"></rect>
+                                    <rect x="11" y="2" width="2" height="12" rx="1" fill="#754FFE"></rect>
+                                </svg>
+                                <p class="difficulty">Advance</p>
+                            </div>
+                        </div>
+
+                        <div class="rating-price">
+                            <div class="raiting">
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,17.27L18.18,21L16.54,13.97L22,9.24L14.81,8.62L12,2L9.19,8.62L2,9.24L7.45,13.97L5.82,21L12,17.27Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.4V6.1L13.71,10.13L18.09,10.5L14.77,13.39L15.76,17.67M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                <svg viewBox="0 0 24 24" role="presentation" style="width: 0.875rem; height: 0.875rem;">
+                                    <path
+                                        d="M12,15.39L8.24,17.66L9.23,13.38L5.91,10.5L10.29,10.13L12,6.09L13.71,10.13L18.09,10.5L14.77,13.38L15.76,17.66M22,9.24L14.81,8.63L12,2L9.19,8.63L2,9.24L7.45,13.97L5.82,21L12,17.27L18.18,21L16.54,13.97L22,9.24Z"
+                                        style="fill: currentcolor;"></path>
+                                </svg>
+                                3.5
+                                <span class="overall-raters">(1,500)</span>
+                            </div>
+
+                        </div>
+
 
                         <hr>
-                        <!-- <div class="profile-img">
-                            <img src="/assets/avatar-2.jpg" alt="">
-                        </div> -->
-                        <p> Brooklyn Simmons</p>
-                        <img src="/assets/bookmark.svg" alt="">
+                        <div class="instructor-body">
+                            <div class="profile-img">
+                                <img class="profile-img" src="/assets/avatar-2.jpg" alt="">
+                            </div>
+                            <p> Brooklyn Simmons</p>
+                            <img class="bookmark" src="/assets/bookmark.svg" alt="">
+                        </div>
                     </div>
                 </div>
+
             </div>
         </div>
     </section>
+
 
 </body>
 
