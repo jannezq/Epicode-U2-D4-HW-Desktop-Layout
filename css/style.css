@@ -333,3 +333,25 @@ span.overall-raters {
 }
 
 */
+
+footer {
+  padding-top: 100px;
+  background-color: var(--clr-pale-purple);
+}
+
+.border-top {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  border-top: 1px solid rgb(218, 213, 213);
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  height: 100px;
+  margin-left: auto;
+}
