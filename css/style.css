@@ -1,3 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap");
+
+:root {
+  /* colours */
+  --clr-purple: #7550fe;
+  --clr-light-purple: #bca8ff;
+  --clr-dark-purple: #120c2d;
+  --clr-green: #1acb98;
+  --clr-beige: #ffeeda;
+  --clr-grey: #f5f4f8;
+}
+
 body {
   margin: 0;
+  font-family: "Inter", sans-serif;
+}
+
+header {
+  max-width: 1920px;
+  display: flex;
+  align-items: center;
+  padding-block: 50px;
+}
+
+header img.logo {
+  width: 50px;
+  height: 50px;
+  margin-inline: 20px;
+}
+
+nav {
+  margin-right: auto;
+}
+
+nav .dropdown {
+  display: flex;
+  padding-left: 20px;
+}
+
+nav .dropdown .nav-link {
+  padding-right: 25px;
+  font-weight: 500;
+}
+
+.side-area {
+  display: flex;
+  align-items: center;
+}
+
+.side-area .notification {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  background-color: var(--clr-grey);
+  border-radius: 50%;
+  border-color: var(--clr-grey);
+}
+
+.side-area .profile-area img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-inline: 20px;
+}
+
+.hero-section {
+  background-image: url("../imgs/hero-area-background.jpg");
+  background-size: cover;
 }
